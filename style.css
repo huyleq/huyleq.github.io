@@ -5,14 +5,10 @@
   text-decoration: none;
 }
 body{
-  color: white;
+  color: black;
   font-family: sans-serif;
   overflow: hidden;
   user-select: none;
-  background-image: url("Constellation.jpeg");
-  background-size: cover;
-  height: 100vh;
-  background-repeat: no-repeat;
 }
 nav .logo{
   color: white;
@@ -80,7 +76,21 @@ nav ul ul ul li{
 nav ul ul li a i{
   margin-left: 45px;
 }
-
-.leftdiv{
-    float: right;
+section{
+    padding: 0 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-image: url("abstract.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.small-box{
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgb(255,255,255,0.2);
+    box-shadow: 0 5px 15px rgb(0,0,0,0.5);
 }
